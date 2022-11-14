@@ -1,0 +1,34 @@
+@media (max-width: $lg) {
+    .container-flex {
+    width: $md + 20px;  
+    }
+}
+@media (max-width: $md) {
+
+    .container-flex {
+        width: $sm + 20px;  
+    }
+    section .showcase {
+        .flex {
+            flex-direction: column;
+        }
+    }
+    section .showcase {
+        .flex {
+            flex-direction: column;
+        }
+    }
+    section .workout {
+        .flex {
+            flex-direction: column;
+        }
+    }
+    
+}
+
+@media (max-width: $sm) {
+    .container-flex {
+    width: 100%; 
+    padding: 0 1rem; 
+    }
+}
